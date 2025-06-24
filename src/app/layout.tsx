@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Wizly Chat UI',
-  description: 'Gemini-inspired Chatbot UI',
+  description: 'Wizly-inspired Chatbot UI',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

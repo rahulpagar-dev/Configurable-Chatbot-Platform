@@ -234,8 +234,8 @@ const ChatWindow = ({ isLoggedIn }: ChatWindowProps) => {
       </div>
 
       {/* Input Area */}
-      <div className="p-6 border-t bg-white">
-        <div className="w-full max-w-4xl mx-auto bg-white border border-gray-300 rounded-3xl shadow-sm px-6 py-4 flex items-center gap-4">
+      <div className="p-6 bg-white">
+        <div style={{height:'5rem'}} className="w-full max-w-4xl mx-auto bg-white border border-gray-300 rounded-3xl shadow-sm px-6 py-4 flex items-center gap-4">
           <input
             type="file"
             ref={fileInputRef}
